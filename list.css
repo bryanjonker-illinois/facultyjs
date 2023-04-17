@@ -1,0 +1,19 @@
+#ils-faculty-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,350px);
+    column-gap: 30px;
+    row-gap: 30px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    list-style: none;
+    justify-content: center;
+}
+
+#ils-faculty-list li {
+    list-style: none;
+    margin: 0;
+}
+
+il-profile-card section[slot="contact"] img:first-child {
+    width: calc(100% + 2.66em);
+}

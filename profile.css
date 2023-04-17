@@ -1,0 +1,3 @@
+il-profile section[slot="contact"] img:first-child {
+    width: calc(100% + 2.66em);
+}
