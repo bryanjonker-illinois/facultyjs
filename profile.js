@@ -15,6 +15,7 @@ function createProfile(item) {
     faculty.innerHTML = '';
     let profile = document.createElement('il-profile');
     let primaryAppointment = item.appointments[0];
+    document.title = item.fullnamefirst;
     let htmlProfile = `<section slot="primary">
     <h1>${item.fullnamefirst}</h1>`;
     htmlProfile += `<p>${primaryAppointment.title}</p>
