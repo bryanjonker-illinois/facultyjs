@@ -14,6 +14,19 @@
     margin: 0;
 }
 
-il-profile-card section[slot="contact"] img:first-child {
+il-profile-card img:first-child {
     width: calc(100% + 2.66em);
+}
+
+.il-formatted il-profile-card h2, .il-formatted il-profile-card h3 {
+    font-size: inherit;
+font-style: inherit;
+font-weight: inherit;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+text-align: initial;
+font-weight: 700;
+font-size: 1em;
+color: var(--il-blue);
 }

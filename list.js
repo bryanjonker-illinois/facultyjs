@@ -15,7 +15,7 @@ function createGrid(items) {
     for (var i = 0; i < items.length; i++) {
         let li = document.createElement('li');
         let htmlProfile = `<il-profile-card><img src="${items[i].image}" alt="">
-<h2 class="heading"><a href="${items[i].externalurl}">${items[i].fullnamefirst}</a></h2>`;
+<h3 class="heading"><a href="${items[i].externalurl}">${items[i].fullnamefirst}</a></h3>`;
         if (items[i].title && items[i].title != '') {
             htmlProfile += `<p>${items[i].title}</p>`;
         }
